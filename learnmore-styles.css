@@ -1,0 +1,130 @@
+/*existing elements*/
+body {
+    background-image: url(Media/background.jfif);
+    background-size: cover;
+}
+
+hr {
+    margin: 50px;
+    clear: both;
+}
+
+a {
+    color: rgb(24, 24, 24);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    font-family: 'Trebuchet MS', sans-serif; 
+}
+
+/*div classes*/
+.header-box {
+    background-color: rgba(135, 102, 138, 0.9);
+    width: auto;
+    border: 7px outset rgba(105, 79, 105, 0.9);
+}
+
+.footer-box {
+    margin: auto;
+    background-color: rgba(200, 160, 75, 0.75);
+    width: 50%;
+    border: 7px outset rgba(128, 77, 0, 0.75);
+}
+
+.textbox {
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgb(253, 175, 212);
+    width: 40%;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+}
+
+.navbox {
+    width: 25%;
+    margin-inline: auto;
+    display: inline-block;
+}
+
+.cooler-div {
+    clear: both;
+    display: inline-block;
+    height: 25px;
+}
+
+.video-div {
+    display: inline-block;
+    width: 50px;
+}
+
+/*text classes*/
+.h0 {
+    font-size: 300%;
+    color: rgb(170, 74, 133);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(128, 60, 92);
+}
+
+.title {
+    margin: 25px;
+    font-size: 45px;
+    color: rgb(141, 141, 141);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(253, 175, 212);
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.textbox-text {
+    font-weight: normal;
+}
+
+/*misc*/
+.nav {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+  
+.nav li {
+    font-family: math;
+    font-size: 22px;
+    margin-inline: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo-main {
+    position: fixed;
+    float: left;
+    margin-left: 15px;
+    padding: 0;
+    width: 84px;
+    height: 84px;
+}
+
+.preview-media {
+    text-align: center;
+    height: 192px;
+    width: 342px;
+}
+
+.icon {
+    height: 44px;
+    width: 44px;
+}
+
+.image {
+    float: left;
+    clear: left;
+    position: relative;
+    height: 168px;
+    width: 275px;
+    margin-left: 317px;
+    margin-bottom: 53px;
+}

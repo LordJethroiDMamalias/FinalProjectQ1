@@ -1,7 +1,7 @@
 /*existing elements*/
 body {
     background-image: url(Media/background.jfif);
-    background-size: cover;
+    background-size: 150%;
 }
 
 hr {
@@ -11,6 +11,8 @@ hr {
 
 a {
     color: rgb(24, 24, 24);
+    transition: color, 0.1s;
+    transition: font-size, 0.1s;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -124,6 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 .icon {
     height: 44px;
     width: 44px;
+    transition: height, 0.1s;
+    transition: width, 0.1s;
 }
 
 .image {
@@ -134,4 +138,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 275px;
     margin-left: 317px;
     margin-bottom: 53px;
+}
+
+/*pseudoclasses*/
+a:hover {
+    color: lime;
+    font-size: 110%;
+}
+
+img.icon:hover {
+    height: 48px;
+    width: 48px;
 }

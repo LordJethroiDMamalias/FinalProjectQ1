@@ -22,6 +22,47 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Trebuchet MS', sans-serif; 
 }
 
+header {
+    background-color: rgba(135, 102, 138, 0.9);
+    width: auto;
+    border: 7px outset rgba(105, 79, 105, 0.9);
+}
+
+footer {
+    margin: auto;
+    background-color: rgba(200, 160, 75, 0.75);
+    width: 50%;
+    border: 7px outset rgba(128, 77, 0, 0.75);
+}
+
+nav {
+    width: 25%;
+    margin-inline: auto;
+    display: inline-block;
+}
+
+aside {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(253, 175, 212);
+    width: 23%;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+    max-width: fit-content;
+    margin-top: 112px;
+    margin-right: 285px;
+    margin-inline-start: auto;
+}
+
+figure {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(196, 134, 163);
+    width: 500px;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+    margin-inline: auto;
+}
+
 /*div classes*/
 .header-box {
     background-color: rgba(135, 102, 138, 0.9);
@@ -138,6 +179,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 275px;
     margin-left: 317px;
     margin-bottom: 53px;
+    transition: height, 0.25s;
+    transition: width, 0.25s;
 }
 
 /*pseudoclasses*/
@@ -149,4 +192,9 @@ a:hover {
 img.icon:hover {
     height: 48px;
     width: 48px;
+}
+
+.image:hover {
+    height: 185px;
+    width: 303px;   
 }

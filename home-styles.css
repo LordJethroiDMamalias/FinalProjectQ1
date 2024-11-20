@@ -167,8 +167,7 @@ figure {
 .icon {
     height: 44px;
     width: 44px;
-    transition: height, 0.1s;
-    transition: width, 0.1s;
+    transition: transform, 0.1s;
 }
 
 .image {
@@ -179,8 +178,7 @@ figure {
     width: 275px;
     margin-left: 317px;
     margin-bottom: 53px;
-    transition: height, 0.25s;
-    transition: width, 0.25s;
+    transition: transform, 0.25s;
 }
 
 /*pseudoclasses*/
@@ -190,11 +188,9 @@ a:hover {
 }
 
 img.icon:hover {
-    height: 48px;
-    width: 48px;
+    transform: scale(1.125);
 }
 
 .image:hover {
-    height: 185px;
-    width: 303px;   
+    transform: scale(1.5);
 }

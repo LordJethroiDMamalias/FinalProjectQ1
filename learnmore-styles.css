@@ -22,12 +22,29 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Trebuchet MS', sans-serif; 
 }
 
+header {
+    background-color: rgba(135, 102, 138, 0.9);
+    width: auto;
+    border: 7px outset rgba(105, 79, 105, 0.9);
+}
+
+footer {
+    margin: auto;
+    background-color: rgba(200, 160, 75, 0.75);
+    width: 50%;
+    border: 7px outset rgba(128, 77, 0, 0.75);
+}
+
 aside {
-    padding: 25px;
+    padding: 10px;
     border-radius: 20px;
     background-color: rgb(253, 175, 212);
-    width: 40%;
+    width: 30%;
     border: 5px solid rgba(172, 89, 180, 0.75);
+    max-width: fit-content;
+    margin-top: 112px;
+    margin-left: 150px;
+    margin-inline-end: auto;
 }
 
 /*div classes*/
@@ -131,15 +148,53 @@ aside {
     margin-bottom: 53px;
 }
 
+.iconx {
+    background: url('Media/icons.png') no-repeat -44px 0px;
+}
+
+.iconfb {
+    background: url('Media/icons.png') no-repeat 0px 0px;
+}
+
 a:hover {
     color: lime;
     font-size: 110%;
 }
 
-img.icon:hover {
+img[class^="icon"] {
+    width: 44px;
+    height: 44px;
+    transition: transform, 0.1s;
+}
+
+img[class^="icon"]:hover {
     transform: scale(1.125);
 }
 
 .image:hover {
     transform: scale(1.5);
+}
+
+::selection {
+    background-color: red;
+}
+
+h3:last-of-type {
+    font-style: italic;
+}
+
+.laughdonut {
+    background: url(Media/laughingdonut.png) no-repeat;
+    margin-top: 240px;
+    margin-right: 400px;
+    width: 160px;
+    height: 160px;
+    float: right;
+    animation: LAUGH 0.5s steps(4) infinite;
+    animation-direction: alternate;
+}
+
+@keyframes LAUGH {
+    from{background-position-x: 0;}
+    to{background-position-x:-640px;}
 }

@@ -35,22 +35,16 @@ footer {
     border: 7px outset rgba(128, 77, 0, 0.75);
 }
 
-nav {
-    width: 25%;
-    margin-inline: auto;
-    display: inline-block;
-}
-
 aside {
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(253, 175, 212);
-    width: 23%;
+    width: 30%;
     border: 5px solid rgba(172, 89, 180, 0.75);
     max-width: fit-content;
     margin-top: 112px;
-    margin-right: 285px;
-    margin-inline-start: auto;
+    margin-left: 150px;
+    margin-inline-end: auto;
 }
 
 figure {
@@ -77,17 +71,6 @@ figure {
     border: 7px outset rgba(128, 77, 0, 0.75);
 }
 
-.textbox {
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgb(253, 175, 212);
-    width: 23%;
-    border: 5px solid rgba(172, 89, 180, 0.75);
-    max-width: fit-content;
-    margin-top: 112px;
-    margin-right: 285px;
-    margin-inline-start: auto;
-}
 
 .navbox {
     width: 25%;
@@ -95,14 +78,10 @@ figure {
     display: inline-block;
 }
 
-.video-box {
+.cooler-div {
+    clear: both;
     display: inline-block;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: rgb(196, 134, 163);
-    width: 500px;
-    border: 5px solid rgba(172, 89, 180, 0.75);
-    margin-inline: auto;
+    height: 25px;
 }
 
 .video-div {
@@ -164,6 +143,11 @@ figure {
     width: 342px;
 }
 
+.icon {
+    height: 44px;
+    width: 44px;
+}
+
 .image {
     float: left;
     clear: left;
@@ -172,7 +156,6 @@ figure {
     width: 275px;
     margin-left: 317px;
     margin-bottom: 53px;
-    transition: transform, 0.25s;
 }
 
 .iconx {
@@ -183,7 +166,6 @@ figure {
     background: url('Media/icons.png') no-repeat 0px 0px;
 }
 
-/*pseudoclasses*/
 a:hover {
     color: lime;
     font-size: 110%;
@@ -205,4 +187,50 @@ img[class^="icon"]:hover {
 
 ::selection {
     background-color: red;
+}
+
+h3:only-child {
+    font-style: oblique;
+    border-radius: 20px;
+    background-color: rgb(196, 134, 163);
+    border: 2px solid rgba(172, 89, 180, 0.75);
+    width: 17%;
+    height: 25px;
+}
+
+h4:only-child {
+    color: white;
+    font-style: italic;
+    margin-top: 50px;
+    width: 15%;
+    height: 20px;
+}
+
+.laughdonutL {
+    background: url(Media/laughingdonut.png) no-repeat;
+    margin: auto;
+    margin-left: 150px;
+    width: 160px;
+    height: 160px;
+    float: left;
+    clear: left;
+    animation: LAUGH 0.5s steps(4) infinite;
+    animation-direction: alternate;
+}
+
+.laughdonutR {
+    background: url(Media/laughingdonut.png) no-repeat;
+    margin: auto;
+    margin-right: 150px;
+    width: 160px;
+    height: 160px;
+    float: right;
+    clear: right;
+    animation: LAUGH 0.5s steps(4) infinite;
+    animation-direction: alternate;
+}
+
+@keyframes LAUGH {
+    from{background-position-x: 0;}
+    to{background-position-x:-640px;}
 }

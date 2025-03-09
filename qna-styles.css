@@ -118,6 +118,15 @@ figure {
     -webkit-text-stroke-color: rgb(128, 60, 92);
 }
 
+.h0_2 {
+    font-size: 200%;
+    color: rgb(170, 74, 133);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(128, 60, 92);
+    background-color: rgb(196, 134, 163);
+    border: 5px solid rgba(172, 89, 180, 0.75);
+}
+
 .h00 {
     font-size: 150%;
     color: rgb(255, 255, 255);
@@ -133,6 +142,10 @@ figure {
 
 .subtitle {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.qna {
+    color: rgba(0, 0, 0, 0.80);
 }
 
 .textbox-text {
@@ -186,6 +199,32 @@ figure {
 
 .iconfb {
     background: url('Media/icons.png') no-repeat 0px 0px;
+}
+
+.choice {
+    height: 40px;
+    width: 77%;
+    margin-left: auto;
+    transition: transform, 0.25s;
+    background-color: rgba(255, 175, 25, 0.5);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.start {
+    height: 30px;
+    width: 50%;
+    margin-left: auto;
+    background-color: rgba(255, 166, 0, 0.87);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.choice:hover {
+    height: 50px;
+    width: 80%;
 }
 
 /*pseudoclasses*/

@@ -1,0 +1,68 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<title>LILC | Upload</title>
+		<link rel="icon" type="image/x-icon" href="Media/logo.png">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+				<img class="logo-main" src="Media/logo.png" title="LILC Logo">
+				<h1 class="h0">Less Inequalities, Less Casualties: [Upload]</h1>
+				<h2 class="subtitle">A movement to stop the effects of the world's social imbalance.</h2>
+		</header>
+
+		<hr>
+
+ 		<form id="upload_form">
+            <fieldset form="upload_form">
+				<br>
+				<h2>It's finally here! Upload a video and spread awareness of SDG 10, which is LILC's target.</h2>
+				<br>
+                <label for="upload_file">Upload here: <span class="req">* </span><p id="check_file"> You need a video to upload</p>
+				<br>
+                <input type="file" id="upload_file" name="upload_file" accept="video/*" required>
+            	<br><br>
+				<label for="upload_title">Your video's title: <span class="req">* </span><p id="check_title"> You need a title for your video</p>
+				<br>
+				<textarea id="upload_title" name="upload_title" required rows="2" cols="40"></textarea>
+				<br><br>
+				<center>
+					<input type="button" onclick="videoUpload()" value="Upload">
+                	<input type="reset" value="Reset">
+				</center>
+				<br>
+            </fieldset>
+        </form>
+
+		<script src="script.js"></script>
+		
+		<hr>
+
+		<footer>
+				<center>
+					<div class="navbox">
+						<ul class="nav">
+							<li><h2>Pages</h2></li>
+							<li><a href="home.html">Home</a></li>
+							<li><a href="proj_profile_mamalias.html">Profile</a></li>
+							<li><a href="learnmore.html">Learn more</a></li>
+							<li><a href="videos.html">Videos</a></li>
+							<li><a href="upload.html">Upload a video</a></li>
+							<li><a href="qna.html">Quiz</a></li>
+						</ul>
+					</div>
+
+					<div class="video-div"></div>
+
+					<div class="navbox">
+						<ul class="nav">
+							<li><h2>Contacts</h2></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100074281427697"><img class="iconfb"></a></li>
+								<li><a href="https://twitter.com/UpExtendedRazor"><img class="iconx"></a></li>
+						</ul>
+					</div>
+				</center>
+		</footer>
+	</body>
+</html>

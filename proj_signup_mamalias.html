@@ -1,0 +1,58 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<title>LILC | Sign Up</title>
+		<link rel="icon" type="image/x-icon" href="Media/logo.png">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+				<img class="logo-main" src="Media/logo.png" title="LILC Logo">
+				<h1 class="h0">Less Inequalities, Less Casualties: [Sign Up]</h1>
+				<h2 class="subtitle">A movement to stop the effects of the world's social imbalance.</h2>
+		</header>
+
+		<hr>
+
+ 		<form id="signup">
+            <fieldset form="signup">
+				<br>
+				<h2>Sign up first before uploading a video.</h2>
+				<br>
+                <label for="name1">First Name: <span class="req">* </span></label>
+                <input type="text" id="name1" name="name1" required><p id="check_name1"> required</p>
+            	<br><br>
+                <label for="name1">Last Name: <span class="req">* </span></label>
+                <input type="text" id="name2" name="name2" required><p id="check_name2"> required</p>
+            	<br>
+                <p>Sex: <span class="req">*</span><span id="check_sex"> required</span></p>
+                <input type="radio" id="male" name="sex" value="♂" required>
+                <label for="male">Male</label></br>
+                <input type="radio" id="female" name="sex" value="♀" required>
+                <label for="female">Female</label></br>
+                <input type="radio" id="nil" name="sex" value="N/A" required>
+                <label for="nil">Prefer not to say</label>
+            	<br><br>
+                <label for="email">Email Address: <span class="req">* </span></label>
+                <input type="text" id="email" name="email" required><p id="check_email"> required</p>
+            	<br><br>
+                <label for="number">Contact Number:</label>
+                <input type="text" id="number" name="number">
+            	<br><br>
+				<label for="support">Why are you supporting LILC?: <span class="req">* </span><p id="check_support"> required</p></label>
+                <br>
+				<textarea id="support" name="support" required rows="5" cols="40"></textarea>
+            	<br><br>
+				<center>
+					<input type="button" onclick="checkRequired()" value="Sign Up">
+                	<input type="reset" value="Reset">
+				</center>
+				<br>
+            </fieldset>
+        </form>
+
+		<script src="script.js"></script>
+		
+		<hr>
+	</body>
+</html>

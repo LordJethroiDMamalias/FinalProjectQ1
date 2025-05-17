@@ -1,45 +1,37 @@
 <!DOCTYPE html5>
 <html>
 	<head>
-		<title>LILC | Quiz</title>
+		<title>LILC | Profile</title>
 		<link rel="icon" type="image/x-icon" href="Media/logo.png">
-		<link rel="stylesheet" href="qna-styles.css"/>
+		<link rel="stylesheet" href="style.css"/>
 	</head>
-	<body>
+	<body onload="display_data()">
 		<header>
 				<img class="logo-main" src="Media/logo.png" title="LILC Logo">
-				<h1 class="h0">Less Inequalities, Less Casualties: [Quiz]</h1>
+				<h1 class="h0">Less Inequalities, Less Casualties: [Profile]</h1>
 				<h2 class="subtitle">A movement to stop the effects of the world's social imbalance.</h2>
 		</header>
 
 		<hr>
 
-		<h2 class="h0_2">It's time for a quiz.</h2>
-
-		<hr>
-
-		<header>
+		<header id="profile">
 			<br>
+			<h1 id="display_namesex">Hello, </h1>
+			<h3 id="display_email"></h3>
 			<br>
-			<h2 class="qna" id="question">Click the button below to start.</h2>
-			<ul class="nav">
-				<li><button class="start" id="start" onclick="begin()">Click to start</button></li>
-				<br>
-				<li><button class="choice" id="A" onclick="checkanswer(1, answer)">A.</button></li>
-				<br>
-				<li><button class="choice" id="B" onclick="checkanswer(2, answer)">B.</button></li>
-				<br>
-				<li><button class="choice" id="C" onclick="checkanswer(3, answer)">C.</button></li>
-				<br>
-				<li><button class="choice" id="D" onclick="checkanswer(4, answer)">D.</button></li>
-				<br>
-				<li><button class="start" id="next" onclick="next()">Next (Finish the question first)</button></li>
-			</ul>
-			<h2 class="qna" id="answer">The answer from last question will display here.</h2>
-			<h2 class="qna" id="score">The score will display here.</h2>
+			<h3>Your reason for supporting LILC:</h3>
+			<p id="display_support"></p>
+			<br>
+			<h3>Videos you've uploaded:</h3>
+			<div id="display_video"></div>
+			<br>
+			<p id="tip">If you don't see anything, you should get uploading...</p>
+			<br>
+			<p id="tip"><i><b>More of the website below! Help in reducing inequalities in the world.</b></i></p>
 			<br>
 		</header>
 
+		<script src="script.js"></script>
 		<hr>
 
 		<footer>
@@ -67,7 +59,5 @@
 						</nav>
 				</center>
 		</footer>
-
-		<script src="qnajs.js"></script>
 	</body>
 </html>

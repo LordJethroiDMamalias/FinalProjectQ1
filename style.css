@@ -1,0 +1,266 @@
+/*existing elements*/
+body {
+    background-image: url(Media/background.jfif);
+    background-size: 150%;
+}
+
+form {
+    width: 40%;
+    margin-inline: auto;
+    background-color: rgba(255, 162, 0, 0.75);
+    border: 7px outset rgba(173, 92, 173, 0.9);
+}
+
+textarea {
+    background-color: darkgray;
+    color: white;
+    border: 3px outset rgb(0, 0, 0);
+}
+
+input {
+    background-color: darkgray;
+    color: white;
+    border: 3px outset rgb(0, 0, 0);
+}
+
+hr {
+    margin: 50px;
+    clear: both;
+}
+
+a {
+    color: rgb(24, 24, 24);
+    transition: color, 0.1s;
+    transition: font-size, 0.1s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    font-family: 'Trebuchet MS', sans-serif; 
+}
+
+header {
+    background-color: rgba(135, 102, 138, 0.9);
+    width: auto;
+    border: 7px outset rgba(105, 79, 105, 0.9);
+}
+
+footer {
+    margin: auto;
+    background-color: rgba(200, 160, 75, 0.75);
+    width: 50%;
+    border: 7px outset rgba(128, 77, 0, 0.75);
+}
+
+nav {
+    width: 25%;
+    margin-inline: auto;
+    display: inline-block;
+}
+
+aside {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(253, 175, 212);
+    width: 23%;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+    max-width: fit-content;
+    margin-top: 112px;
+    margin-right: 285px;
+    margin-inline-start: auto;
+}
+
+figure {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(196, 134, 163);
+    width: 500px;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+    margin-inline: auto;
+}
+
+ul {
+    margin-left: 0;
+    text-align: center;
+}
+
+/*div classes*/
+.header-box {
+    background-color: rgba(135, 102, 138, 0.9);
+    width: auto;
+    border: 7px outset rgba(105, 79, 105, 0.9);
+}
+
+.footer-box {
+    margin: auto;
+    background-color: rgba(200, 160, 75, 0.75);
+    width: 50%;
+    border: 7px outset rgba(128, 77, 0, 0.75);
+}
+
+.textbox {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(253, 175, 212);
+    width: 23%;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+    max-width: fit-content;
+    margin-top: 112px;
+    margin-right: 285px;
+    margin-inline-start: auto;
+}
+
+.navbox {
+    width: 25%;
+    margin-inline: auto;
+    display: inline-block;
+}
+
+.video-box {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(196, 134, 163);
+    width: 500px;
+    border: 5px solid rgba(172, 89, 180, 0.75);
+    margin-inline: auto;
+}
+
+.video-div {
+    display: inline-block;
+    width: 50px;
+}
+
+/*text classes*/
+.h0 {
+    font-size: 300%;
+    color: rgb(170, 74, 133);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(128, 60, 92);
+}
+
+.h00 {
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    margin: 25px;
+    font-size: 45px;
+    color: rgb(141, 141, 141);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(253, 175, 212);
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.textbox-text {
+    font-weight: normal;
+}
+
+/*misc*/
+.nav {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+  
+.nav li {
+    font-family: math;
+    font-size: 22px;
+    margin-inline: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo-main {
+    position: fixed;
+    float: left;
+    margin-left: 15px;
+    padding: 0;
+    width: 84px;
+    height: 84px;
+}
+
+.preview-media {
+    text-align: center;
+    height: 192px;
+    width: 342px;
+}
+
+.image {
+    float: left;
+    clear: left;
+    position: relative;
+    height: 168px;
+    width: 275px;
+    margin-left: 317px;
+    margin-bottom: 53px;
+    transition: transform, 0.25s;
+}
+
+.iconx {
+    background: url('Media/icons.png') no-repeat -44px 0px;
+}
+
+.iconfb {
+    background: url('Media/icons.png') no-repeat 0px 0px;
+}
+
+.req {
+  color: red;
+}
+
+#profile {
+    width: 60%;
+    margin-inline: auto;
+    background-color: rgba(236, 183, 241, 0.9);
+    border: 7px outset rgba(159, 99, 159, 0.9);
+}
+
+#check_name1, #check_name2, #check_email, #check_sex, #check_support, #check_file, #check_title {
+    display: none;
+}
+
+#display_email, #display_support, #tip{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+#display_video {
+    margin-inline: auto;
+}
+
+/*pseudoclasses*/
+a:hover {
+    color: lime;
+    font-size: 110%;
+}
+
+a[class^=h00]:hover {
+    color: rgb(170, 74, 133);
+    font-size: 150%;
+}
+
+img[class^="icon"] {
+    width: 44px;
+    height: 44px;
+    transition: transform, 0.1s;
+}
+
+img[class^="icon"]:hover {
+    transform: scale(1.125);
+}
+
+.image:hover {
+    transform: scale(1.5);
+}
+
+::selection {
+    background-color: red;
+}
